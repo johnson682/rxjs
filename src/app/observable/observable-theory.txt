@@ -1,0 +1,53 @@
+
+----------------------------------
+      Observable
+----------------------------------
+-Observables are lazy Push collections of multiple values.
+-new push system of javascript
+-an observable is a producer multiple values ,"pushing" them to observers(consumers)
+
+
+-it's data stream
+------------------------------------------------------------------------
+    example#1
+-------------------------------------------------------------------------
+  -in shopping cart application
+  -"Observable"
+    -orderStatus initially =NULL
+    -user comes and places an order
+      -orderStatus will changes over time (continously changed )
+        -orderStatus = order placed
+        -orderStatus = order processing
+        -orderStatus = order recived
+        -orderStatus = order sumbmitted
+        -orderStatus = order completed
+      -needs to inform multiple apps
+  -it will need "Subscribe"
+    -it will listen to  the observable for data changes/updates
+    -my app is dashboard
+      -orderStatus -latest value always -since we have subscribed to it
+
+---------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+                            exaple#2
+--------------------------------------------------------------------------
+-Youtube channel - myChannel
+  -Observable
+    -Data(video) is posted every single day
+    -any changes that happens to my channel
+    -Content
+      -video
+      -shorts
+      -community message/posts
+
+
+  -Subscribe
+    -you have subscribe to mychannel
+      -you got notification every time i posted a video
+      -there is any change in data you got notification
+
+  -Rxjs Operators
+    -filter(it will use somebody watching videos and somebody watching posts so filter can use)
+    -map(reading all the things map will use)
+
