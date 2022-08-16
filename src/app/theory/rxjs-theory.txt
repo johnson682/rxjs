@@ -1,0 +1,40 @@
+  ------------------------
+          RXJS
+  ------------------------
+  --RxJs-Reactive Extension of JavaScript
+  --just another way of building software applications
+
+  --our software built to "react" to changes that happens (like click event, data fetch,etc)
+  instead of the typical way of writing software where we explicitly write code(aka "imperative" programming)
+  to handle those changes
+  --------------------------
+
+  -----------------------------------
+           what is Rxjs
+  ------------------------------------
+  -library for composing asynchronous and event based programs by using observable sequences
+  -library for reactive programming using observables that makes it easier to compose asynchronous or callback-based code.
+  ------------------------------------
+
+  -------------------------
+  1.core type
+  ------------------------
+  --observable
+  -------------------------
+
+  -------------------------
+  2.satelite type
+  ----------------------------
+  --observer
+  --schedulers
+  --subjects
+  ------------------------------
+
+  --------------------------------
+  3.operators
+  -------------------------------
+  -map
+  -pipe
+  -reduce
+  -etc...
+  ---------------------------------

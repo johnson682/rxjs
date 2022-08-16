@@ -1,0 +1,6 @@
+----------------------------
+       Schedular
+----------------------------
+
+-What is a Scheduler?
+  -A scheduler controls when a subscription starts and when notifications are delivered.
