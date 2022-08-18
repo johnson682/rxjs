@@ -1,0 +1,32 @@
+---------------------------------
+     DebounceTime operator
+---------------------------------
+
+-Emits a notification from the source Observable only after a particular time span has passed without
+another source emission.
+
+---------------------------------
+       use cases
+---------------------------------
+1.search
+  -user type  the values -> you cannot call api's so many times
+  -need time lag -> debounceTime
+  -fast -> Api calls
+
+  -------------pipe-------------------
+  operators/function  --> output   //pipe will used to given operators or function that output will be observable
+  -------------------------------------
+
+2.delay / emit the next
+
+
+
+
+---------------------------------
+        Example
+---------------------------------
+-let numbers= interval(500)
+
+numbers.pipe(DebounceTime(100)).subscribe(data=>{
+  console.log(data)
+})

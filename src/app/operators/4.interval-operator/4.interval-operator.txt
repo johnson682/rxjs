@@ -1,0 +1,11 @@
+----------------------------------------
+           interval operator
+----------------------------------------
+
+-Creates an Observable that emits sequential numbers every specified interval of time, on a specified SchedulerLike.
+
+----------------------------------------
+           Example
+----------------------------------------
+
+-let numbers = interval(500)

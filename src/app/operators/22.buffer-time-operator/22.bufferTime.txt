@@ -1,0 +1,5 @@
+-----------------------------
+        bufferTime
+-----------------------------
+
+-Buffers the source Observable values for a specific time period.

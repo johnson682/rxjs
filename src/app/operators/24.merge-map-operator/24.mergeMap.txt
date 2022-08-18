@@ -1,0 +1,5 @@
+----------------------------------
+        mergeMap
+----------------------------------
+
+-Projects each source value to an Observable which is merged in the output Observable.

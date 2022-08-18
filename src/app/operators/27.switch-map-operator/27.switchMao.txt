@@ -1,0 +1,6 @@
+---------------------------------
+        switchMap
+---------------------------------
+
+-Projects each source value to an Observable which is merged in the output Observable,
+emitting values only from the most recently projected Observable.

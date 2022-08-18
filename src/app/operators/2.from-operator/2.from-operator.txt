@@ -1,0 +1,23 @@
+--------------------------------------------
+         From operator
+--------------------------------------------
+
+-Creates an Observable from an Array, an array-like object, a Promise, an iterable object, or an Observable-like object
+
+-it will always take array or array like
+
+---------------------------------------------
+          Example
+---------------------------------------------
+
+-students:Observable<string> = from (['welcome','to','angular'])
+
+
+---------------------------------------------------
+    Diffrence between  Of operator & From operator
+---------------------------------------------------
+-From operator will create an Observable from an array , an array-like object , a promise ,an iterable object ,or an
+observable-like object
+
+-Of operator can create observable from a string , object or Array
+ *specially useful when working with Models or interfaces

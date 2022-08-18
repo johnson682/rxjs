@@ -1,0 +1,17 @@
+----------------------------
+        TakeLast
+----------------------------
+
+-Waits for the source to complete , then emits the last N values from the source ,as specified by the count
+argument
+
+
+----------------------------
+        Example
+----------------------------
+
+-let numbers = interval(500)
+  numbers.pipe(
+    takeLast(2),
+    deBounceTime(100)
+  ).subscribe(data=>console.log(data))

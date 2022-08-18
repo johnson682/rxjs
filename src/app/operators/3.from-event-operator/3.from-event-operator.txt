@@ -1,0 +1,21 @@
+---------------------------------------
+      From Event Operator
+---------------------------------------
+
+-Creates an Observable that emits events of a specific type coming from the given event target.
+
+-we can bind target Elements and methods to make sure we get Observable as output
+
+-** Angular Specific -> we will use ViewChild ,NativeElement as target element and bind events
+
+-Create Observable as event simple explanation
+
+----------------------------------------
+          Examples
+----------------------------------------
+
+Const student = fromEvent(this.validateBtn?.nativeElement,'click');
+console.log(student)
+student.subscribe(data=>{
+  console.log(data)
+})

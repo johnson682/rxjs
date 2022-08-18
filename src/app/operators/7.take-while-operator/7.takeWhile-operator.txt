@@ -1,0 +1,21 @@
+------------------------------------
+          TakeWhile operator
+------------------------------------
+
+-emits Values emitted by the source Observable so long as each value satisfies the given predicate , and  then
+complete as soon as this predicate is not satisfied
+
+-------------------------------------
+        Example
+-------------------------------------
+
+let numbers = interval(500)
+
+numbers.pipe(
+  TakeWhile((v) =>{
+    this.checkCount(v)
+  }),
+  deBounceTime(100)
+).subscribe(data =>{
+  console.log(data)
+})

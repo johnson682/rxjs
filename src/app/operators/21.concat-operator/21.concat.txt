@@ -1,0 +1,6 @@
+----------------------------
+        Concat
+----------------------------
+
+-Creates an output Observable which sequentially emits all values from the first given Observable
+and then moves on to the next.

@@ -1,0 +1,17 @@
+------------------------------
+     Take Operator
+------------------------------
+
+-Emits only  the first count values emitted by the source Observable
+
+
+--------------------------------
+      Example
+--------------------------------
+
+-let numbers = interval(500);
+
+numbers.pipe(
+  take(2),
+  debounceTime(100)
+).subscribe(data =>{console.log(data)})

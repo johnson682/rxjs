@@ -1,0 +1,38 @@
+-----------------------------------
+         operators
+-----------------------------------
+
+-rxjs library provides a lot of useful operators which helps us write  clean code and  reduce lot of effort in writing
+custom logic -which leads to many bugs actually!
+
+-an operators is a pure function
+
+-------------------------------------
+          pure function
+-------------------------------------
+
+-a function will also return same value when passed with same input value
+
+
+--------------------------------------
+
+-a operator takes in observable as input and output will also be an observable
+
+------------------------------------------
+
+
+Types of operators
+--------------------------------------------
+-there are a lot of operators to do various types of operations
+
+-operators for below functioning
+  -creation
+  -mathematical
+  -join          (**very important)
+  -transformation
+  -filtering
+  -utility
+  -conditional
+  -multicasting
+  -error handling
+------------------------------------------------

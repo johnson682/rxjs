@@ -1,0 +1,15 @@
+------------------------------
+         skip operator
+-----------------------------
+
+-will give back an observable that will skip the first occurrence of count items taken as input
+
+----------------------------
+        Example
+----------------------------
+
+this.name$.pipe{
+  skip(2)
+}.subscribe(data=>{
+  console.log(data)
+})

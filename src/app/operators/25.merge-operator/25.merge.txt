@@ -1,0 +1,5 @@
+------------------------------
+         merge
+-------------------------------
+
+-Creates an output Observable which concurrently emits all values from every given input Observable.

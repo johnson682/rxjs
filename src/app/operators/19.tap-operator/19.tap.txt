@@ -1,0 +1,5 @@
+--------------------------------
+           tap
+--------------------------------
+
+-Used to perform side-effects for notifications from the source observable

@@ -1,0 +1,16 @@
+--------------------------------
+       Distinct operator
+-------------------------------
+
+-will give all the values from the source observable that are Distinct when compared with the previous value
+
+
+-------------------------------
+      Example
+-------------------------------
+
+-this.name$.pipe(
+  distinct()
+).subscribe(data=>{
+  console.log(data)
+})

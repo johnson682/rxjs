@@ -1,0 +1,31 @@
+
+------------------------------------
+         Of Operator
+------------------------------------
+
+
+-Converts the arguments to an observable sequence.
+
+------------------------------------
+       where it's used
+-------------------------------------
+
+-whenever we want to pass a variable which has to  be Observable instead of array or string ,we use of operator
+
+
+-----------------------------------
+     Example
+----------------------------------
+
+-viewvers:Observable<string[]> = Of(['welcome','to','angular']);
+-student:Observable<User> = of(this.userObj)
+-student1:Observable<string> = of('welcome')
+
+---------------------------------------------------
+    Diffrence between  Of operator & From operator
+---------------------------------------------------
+-From operator will create an Observable from an array , an array-like object , a promise ,an iterable object ,or an
+observable-like object
+
+-Of operator can create observable from a string , object or Array
+ *specially useful when working with Models or interfaces

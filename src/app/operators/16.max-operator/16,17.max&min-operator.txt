@@ -1,0 +1,13 @@
+------------------------------------------
+             MAx Operator
+-----------------------------------------
+
+-will take an observable with all values and return an observable with max value
+
+------------------------------------------
+            min operator
+-----------------------------------------
+
+-will take an observable with all values and return an observable with min value
+
+

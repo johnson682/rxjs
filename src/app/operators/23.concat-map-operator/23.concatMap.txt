@@ -1,0 +1,6 @@
+-------------------------
+     ConcatMap
+-------------------------
+
+-Projects each source value to an Observable which is merged in the output Observable,
+in a serialized fashion waiting for each one to complete before merging the next.

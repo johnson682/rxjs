@@ -1,0 +1,17 @@
+---------------------------------------
+          elementAt operator
+---------------------------------------
+
+-will give a single value from the source observable based upon th index given
+
+-its an array index-means it will always start with 0
+
+---------------------------------------
+        Example
+---------------------------------------
+
+- this.name$.pipe(
+  elementAt(2)
+).subscribe(data=>{
+  console.log(data)
+})

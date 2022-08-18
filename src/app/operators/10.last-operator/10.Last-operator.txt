@@ -1,0 +1,16 @@
+----------------------------------------
+            last Operator
+----------------------------------------
+
+-will give the last value emitted by the source observable
+
+----------------------------------------
+          Example
+----------------------------------------
+
+-let numbers=interval(500);
+ numbers.pipe(
+   last()
+ ).subscribe(data=>{
+   console.log(data)
+ })

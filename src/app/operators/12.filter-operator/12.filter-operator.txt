@@ -1,0 +1,12 @@
+-----------------------------------
+       filter operator
+-----------------------------------
+
+-will give filter value from source observable based on the predicate function given
+-**very inportant operator**
+
+------------------------------------
+      Example
+------------------------------------
+
+filter((v)=>this.filterText(v))
